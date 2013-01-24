@@ -24,6 +24,8 @@
 		FCAE1D6D16B19AE500248E86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAE1D4516B19AE500248E86 /* Foundation.framework */; };
 		FCAE1D7516B19AE500248E86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCAE1D7316B19AE500248E86 /* InfoPlist.strings */; };
 		FCAE1D7816B19AE500248E86 /* FontExplorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAE1D7716B19AE500248E86 /* FontExplorerTests.m */; };
+		FCAE1D8316B19B0A00248E86 /* DTFontFamilyControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAE1D8216B19B0A00248E86 /* DTFontFamilyControllerViewController.m */; };
+		FCAE1D8616B1AA9D00248E86 /* DTFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAE1D8516B1AA9D00248E86 /* DTFontViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		FCAE1D7416B19AE500248E86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCAE1D7616B19AE500248E86 /* FontExplorerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontExplorerTests.h; sourceTree = "<group>"; };
 		FCAE1D7716B19AE500248E86 /* FontExplorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontExplorerTests.m; sourceTree = "<group>"; };
+		FCAE1D8116B19B0A00248E86 /* DTFontFamilyControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTFontFamilyControllerViewController.h; sourceTree = "<group>"; };
+		FCAE1D8216B19B0A00248E86 /* DTFontFamilyControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTFontFamilyControllerViewController.m; sourceTree = "<group>"; };
+		FCAE1D8416B1AA9D00248E86 /* DTFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTFontViewController.h; sourceTree = "<group>"; };
+		FCAE1D8516B1AA9D00248E86 /* DTFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTFontViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,10 @@
 				FCAE1D6116B19AE500248E86 /* DTViewController.h */,
 				FCAE1D6216B19AE500248E86 /* DTViewController.m */,
 				FCAE1D4A16B19AE500248E86 /* Supporting Files */,
+				FCAE1D8116B19B0A00248E86 /* DTFontFamilyControllerViewController.h */,
+				FCAE1D8216B19B0A00248E86 /* DTFontFamilyControllerViewController.m */,
+				FCAE1D8416B1AA9D00248E86 /* DTFontViewController.h */,
+				FCAE1D8516B1AA9D00248E86 /* DTFontViewController.m */,
 			);
 			path = FontExplorer;
 			sourceTree = "<group>";
@@ -278,6 +288,8 @@
 				FCAE1D5016B19AE500248E86 /* main.m in Sources */,
 				FCAE1D5416B19AE500248E86 /* DTAppDelegate.m in Sources */,
 				FCAE1D6316B19AE500248E86 /* DTViewController.m in Sources */,
+				FCAE1D8316B19B0A00248E86 /* DTFontFamilyControllerViewController.m in Sources */,
+				FCAE1D8616B1AA9D00248E86 /* DTFontViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
