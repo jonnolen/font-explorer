@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC7571D816B8A2F700DFF21C /* DOTLH___.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FC7571D716B8A2F700DFF21C /* DOTLH___.TTF */; };
+		FC7571DD16B8AAE100DFF21C /* League_Gothic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC7571DC16B8AAE100DFF21C /* League_Gothic.otf */; };
+		FC7571DF16B8AB0600DFF21C /* FetteUNZFraktur.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC7571DE16B8AB0600DFF21C /* FetteUNZFraktur.ttf */; };
+		FC7571E116B8AB2800DFF21C /* Signika-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC7571E016B8AB2800DFF21C /* Signika-Regular.otf */; };
+		FC7571E316B8AB3200DFF21C /* Signika-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC7571E216B8AB3200DFF21C /* Signika-Bold.otf */; };
 		FCAE1D4416B19AE500248E86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAE1D4316B19AE500248E86 /* UIKit.framework */; };
 		FCAE1D4616B19AE500248E86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAE1D4516B19AE500248E86 /* Foundation.framework */; };
 		FCAE1D4816B19AE500248E86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAE1D4716B19AE500248E86 /* CoreGraphics.framework */; };
@@ -26,6 +31,7 @@
 		FCAE1D7816B19AE500248E86 /* FontExplorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAE1D7716B19AE500248E86 /* FontExplorerTests.m */; };
 		FCAE1D8316B19B0A00248E86 /* DTFontFamilyControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAE1D8216B19B0A00248E86 /* DTFontFamilyControllerViewController.m */; };
 		FCAE1D8616B1AA9D00248E86 /* DTFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAE1D8516B1AA9D00248E86 /* DTFontViewController.m */; };
+		FCCACA0816BFE4AB001BD6FF /* dotline_bold.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FCCACA0716BFE4AB001BD6FF /* dotline_bold.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC7571D716B8A2F700DFF21C /* DOTLH___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DOTLH___.TTF"; sourceTree = "<group>"; };
+		FC7571DC16B8AAE100DFF21C /* League_Gothic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = League_Gothic.otf; sourceTree = "<group>"; };
+		FC7571DE16B8AB0600DFF21C /* FetteUNZFraktur.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FetteUNZFraktur.ttf; sourceTree = "<group>"; };
+		FC7571E016B8AB2800DFF21C /* Signika-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika-Regular.otf"; sourceTree = "<group>"; };
+		FC7571E216B8AB3200DFF21C /* Signika-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika-Bold.otf"; sourceTree = "<group>"; };
 		FCAE1D3F16B19AE500248E86 /* FontExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCAE1D4316B19AE500248E86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCAE1D4516B19AE500248E86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,6 +77,7 @@
 		FCAE1D8216B19B0A00248E86 /* DTFontFamilyControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTFontFamilyControllerViewController.m; sourceTree = "<group>"; };
 		FCAE1D8416B1AA9D00248E86 /* DTFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTFontViewController.h; sourceTree = "<group>"; };
 		FCAE1D8516B1AA9D00248E86 /* DTFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTFontViewController.m; sourceTree = "<group>"; };
+		FCCACA0716BFE4AB001BD6FF /* dotline_bold.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = dotline_bold.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +137,12 @@
 		FCAE1D4916B19AE500248E86 /* FontExplorer */ = {
 			isa = PBXGroup;
 			children = (
+				FC7571E216B8AB3200DFF21C /* Signika-Bold.otf */,
+				FC7571D716B8A2F700DFF21C /* DOTLH___.TTF */,
+				FCCACA0716BFE4AB001BD6FF /* dotline_bold.TTF */,
+				FC7571DE16B8AB0600DFF21C /* FetteUNZFraktur.ttf */,
+				FC7571DC16B8AAE100DFF21C /* League_Gothic.otf */,
+				FC7571E016B8AB2800DFF21C /* Signika-Regular.otf */,
 				FCAE1D5216B19AE500248E86 /* DTAppDelegate.h */,
 				FCAE1D5316B19AE500248E86 /* DTAppDelegate.m */,
 				FCAE1D5B16B19AE500248E86 /* MainStoryboard_iPhone.storyboard */,
@@ -251,6 +269,12 @@
 				FCAE1D5A16B19AE500248E86 /* Default-568h@2x.png in Resources */,
 				FCAE1D5D16B19AE500248E86 /* MainStoryboard_iPhone.storyboard in Resources */,
 				FCAE1D6016B19AE500248E86 /* MainStoryboard_iPad.storyboard in Resources */,
+				FC7571D816B8A2F700DFF21C /* DOTLH___.TTF in Resources */,
+				FC7571DD16B8AAE100DFF21C /* League_Gothic.otf in Resources */,
+				FC7571DF16B8AB0600DFF21C /* FetteUNZFraktur.ttf in Resources */,
+				FC7571E116B8AB2800DFF21C /* Signika-Regular.otf in Resources */,
+				FC7571E316B8AB3200DFF21C /* Signika-Bold.otf in Resources */,
+				FCCACA0816BFE4AB001BD6FF /* dotline_bold.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +498,7 @@
 				FCAE1D7D16B19AE500248E86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCAE1D7E16B19AE500248E86 /* Build configuration list for PBXNativeTarget "FontExplorerTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +507,7 @@
 				FCAE1D8016B19AE500248E86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

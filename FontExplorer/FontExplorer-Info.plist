@@ -24,6 +24,15 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>FetteUNZFraktur.ttf</string>
+		<string>DOTLH___.TTF</string>
+		<string>League_Gothic.otf</string>
+		<string>Signika-Bold.otf</string>
+		<string>dotline_bold.TTF</string>
+		<string>Signika-Regular.otf</string>
+	</array>
 	<key>UIMainStoryboardFile</key>
 	<string>MainStoryboard_iPhone</string>
 	<key>UIMainStoryboardFile~ipad</key>
