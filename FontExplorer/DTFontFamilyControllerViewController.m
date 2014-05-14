@@ -77,6 +77,7 @@
         cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
     }
     else{
+        cell.textLabel.text = fonts[0];
         cell.accessoryType = UITableViewCellAccessoryNone;
     }
     
